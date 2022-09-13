@@ -15,7 +15,7 @@ archivo = open("red_prueba1.pkl", 'wb')
 pickle.dump(net,archivo)
 archivo.close()
 exit()
-#leer el archivo
+# leer el archivo
 
 archivo_lectura = open("red_prueba.pkl",'rb')
 net = pickle.load(archivo_lectura)
